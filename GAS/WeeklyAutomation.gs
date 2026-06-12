@@ -62,6 +62,6 @@ function createNextMeetingSheet() {
     console.log(`[自動化成功] 已在目錄第 ${targetRow} 列插入新連結：${newSheetName}`);
   }
 
-  // 徹底移除 UI.alert，這樣就算沒開視窗也會靜默執行完成
+  // 移除 UI.alert，這樣就算沒開視窗也會靜默執行完成
   console.log(`任務完成：${newSheetName} 已建立。`);
 }
